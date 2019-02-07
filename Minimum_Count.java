@@ -1,7 +1,7 @@
 
 public class Solution {
 	
-	public static int func(int n,int[] arr)
+    public static int func(int n,int[] arr)
     {
       if(arr[n]!=0)
       {
@@ -30,16 +30,12 @@ public class Solution {
       //arr[n]=min;
       return arr[n]=min;
     }
-	public static int minCount(int n){
-		/* Your class should be named Solution
-	 	 * Don't write main().
-		 * Don't read input, it is passed as function argument.
-		 * Return output and don't print it.
-		 * Taking input and printing output is handled automatically.
-		*/
+    
+    public static int minCount(int n){
+	    
       int arr[]=new int[n+1];
-		return func(n,arr);
-	}
+      return func(n,arr);
+}
 
 	
 }
