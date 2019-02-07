@@ -1,9 +1,8 @@
 import java.util.*;
 public class solution {
-  	
-  	
-	public int solve(int n,int arr[])
-	{
+	
+public int solve(int n,int arr[])
+{
       
       int freq[]=new int[1001];
       for(int i=0;i<n;i++)
@@ -29,5 +28,6 @@ public class solution {
       
       return dp[1000];
       
-	}
+}
+	
 }
